@@ -1,0 +1,238 @@
+*{
+    color:white;
+}
+
+body{
+    background-image: url("bg2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding:2%;
+    padding-bottom: 10%;
+    
+}
+
+nav{
+    position:sticky;
+    top:0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.logo{
+    height: 5em;
+    width:auto;
+    top:0%;
+    left:0%;
+}
+
+
+
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;  
+    margin-right:10%;
+    
+}
+
+.about>p{
+    
+    width:80%;
+    float:right;
+    font-size: medium;
+
+}
+
+.about>h2{
+    float:left;
+}
+
+.about{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.address{
+    font-weight:lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.fav{
+    text-align: center;
+    color:rgb(233, 207, 41);
+}
+
+.item{
+    width:20%;
+    height: 20%;
+    padding-right:0%;
+    padding-top:1%;
+    margin: 5%;
+    float: left;
+    text-align: center;
+    /*background-color: grey;*/
+   
+    background-color: rgba(50, 49, 49, 0.5);
+   
+       
+}
+#food{
+    width:10rem;
+    height: 11rem;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+.item>p{
+    text-align:left;
+    padding-left:30%;
+}
+
+
+.item:hover{
+    background-color: rgb(122, 59, 15);
+}
+
+.hero{
+    
+    width:100%;
+    height: 10%;
+    display: inline-block;
+    position: relative;
+    transition: 1s box-shadow;
+}
+
+.hero_img{
+    opacity: 40%;
+    width:100%;
+    height:20em;
+    
+    display: block;
+    
+}
+
+.quote{
+    
+    position: absolute;
+    transform: translate(22%, -80%);
+    padding:20%;
+    text-align: center;
+    font-size: xx-large;
+   
+}
+
+
+
+a:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+}
+
+a:hover{
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+}
+
+/*.hero:hover {
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  }
+
+.hero:hover::before, .hero:hover::after{
+    background: #FDA8CF;
+    border-radius: 75px;
+    z-index: -1;
+    animation: 1s clockwise infinite;
+}
+
+.hero:hover:after{
+    animation: 2s counterclockwise infinite;
+}
+
+@keyframes clockwise {
+    0% {
+      top: -5px;
+      left: 0;
+    }
+    12% {
+      top: -2px;
+      left: 2px;
+    }
+    25% {
+      top: 0;
+      left: 5px;    
+    }
+    37% {
+      top: 2px;
+      left: 2px;
+    }
+    50% {
+      top: 5px;
+      left: 0;    
+    }
+    62% {
+      top: 2px;
+      left: -2px;
+    }
+    75% {
+      top: 0;
+      left: -5px;
+    }
+    87% {
+      top: -2px;
+      left: -2px;
+    }
+    100% {
+      top: -5px;
+      left: 0;    
+    }
+  }
+  
+@keyframes counterclockwise {
+    0% {
+      top: -5px;
+      right: 0;
+    }
+    12% {
+      top: -2px;
+      right: 2px;
+    }
+    25% {
+      top: 0;
+      right: 5px;    
+    }
+    37% {
+      top: 2px;
+      right: 2px;
+    }
+    50% {
+      top: 5px;
+      right: 0;    
+    }
+    62% {
+      top: 2px;
+      right: -2px;
+    }
+    75% {
+      top: 0;
+      right: -5px;
+    }
+    87% {
+      top: -2px;
+      right: -2px;
+    }
+    100% {
+      top: -5px;
+      right: 0;    
+    }
+  }
+  */
